@@ -1,0 +1,259 @@
+/* CSS Layout */
+
+
+/* Main Background */
+.page {
+	background-color: #ffffff;
+	}
+	
+	/* Header Section */
+	.main.header {
+	background-color:#fff1e6;
+	height:200px;
+	
+	}
+	
+	/* Nav-bar Section */
+	.nav-bar {
+	background-color:#7adbe6;
+	height:80px;
+	
+	}
+	
+	.nav-bar ul{  
+	float:right;
+	margin-right:0px;
+	}
+	
+	.nav-bar li {
+	list-style-type: none;
+	margin-top: 10px;
+	 
+	}
+	
+	.nav-bar ul li{ 
+	display: inline-table; 
+	position:relative;
+	text-align:center;
+	border: 1px solid #B8860B transparent;
+	padding:10px;
+	}
+	
+	.nav-bar ul li a {
+	font-family: georgia, serif;
+	text-decoration: none;
+	color: #ffffff;
+	padding: 5px 20px;
+	transition: 0.3s ease;
+		
+	}
+	
+	.nav-bar ul li a:hover{
+		background-color: #608E7A;
+		color: black;
+	}
+	
+	.dropdown {
+		display: none;
+		
+	}
+	
+	.nav-bar ul li:hover .dropdown {
+		display: block;
+		position: absolute;
+	}
+		
+	.nav-bar ul li:hover .dropdown ul {
+		display: inline;
+		margin: 10px;
+	}
+	
+	.nav-bar ul li:hover .dropdown ul li {
+		width: 200px; 
+		background: transparent;
+		text-align: left;
+		padding:2px;
+	}
+	
+	.logo {
+	position:absolute; 
+	left:80px; 
+	top:20px;
+	}
+	
+	
+	/* Main + Sidebar Background */
+	.container {
+	background-color: #ffff99;
+	padding:5px;
+	}
+	
+	
+	
+	/* Main Section */
+	.main {
+	background-color:#ffff99;
+	width:75%;
+	height:100%;
+	float:left;
+	}
+	
+	marquee{
+	font-size: 50px;
+	font-weight: 900;
+	text-shadow: 2px 2px #ccbcbc;
+	font-family: sans-serif;
+	margin-top:5px;
+	}
+	
+	.figure {
+	width:5px;
+	height:5px;
+	margin-bottom:50px;
+	display: inline-block;
+	padding:90px;
+	}
+	
+	h1 {
+	font-weight:normal;
+	letter-spacing: 5px;
+	padding-left:40px;
+	margin-top:200px;
+	}
+	
+	ol li {
+	font-weight:bold;
+	}
+	
+	#L p{
+	line-height: 1.8;
+	padding-left:10px; 
+	}
+	
+	a {
+	color:hotpink;
+	}
+	
+	#R {
+	line-height: 1.8;
+	padding-left:10px;
+	}
+	
+	#C p {
+	line-height: 1.8;
+	padding-left:10px;
+	}
+	
+	p li {
+	font-weight:normal;
+	}
+	
+	#H p {
+	line-height: 1.8;
+	padding-left:10px;
+	}
+	
+	
+	
+	/* Sidebar Section */
+	.sidebar {
+	background-color: #ffffff;
+	width:25%;
+	height:100%;
+	float:right;
+	}
+	
+	h3 {
+	padding-left:10px;
+	text-align:justify;
+	}
+	
+	.select {
+	display: block;
+	position: relative;
+	padding-left: 30px;
+	margin-bottom: 10px;
+	cursor: pointer;
+	font-size: 15px;
+	}
+	
+	.select input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	}
+	
+	.checkmark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 15px;
+	width: 15px;
+	background-color: #eee;
+	border-radius: 20%;
+	}
+	
+	.select:hover input ~ .checkmark {
+	background-color: #ccc;
+	}
+	
+	.select input:checked ~ .checkmark {
+	background-color: #80bfff;
+	}
+	
+	.checkmark:after {
+	position: absolute;
+	display: none;
+	}
+	
+	.select input:checked ~ .checkmark:after {
+	display: block;
+	}
+	
+	.select. checkmark .after{
+	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+	}
+	
+	h4 {
+	letter-spacing: 5px;
+	margin-top:100px;
+	text-align:center;
+	}
+	
+	#checkbox {
+	background-color: #ffbb80;
+	width: 180px;
+	padding: 40px;
+	margin: 35px;
+	}
+	
+	.info {
+	text-align:center;
+	width: 200px;
+	background: #ffe6ff;
+	transition: width 2s;
+	margin-left:15px;
+	height:270px;
+	}
+	
+	.info:hover {
+	width: 310px;
+	height:270px;
+	
+	}
+	
+	
+	
+	/* Footer Section */
+	.main-footer {
+	background-color:#ffc34d;
+	clear:both;
+	text-align:center;
+	height:135px;
+	}
+	
